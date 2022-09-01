@@ -7,7 +7,7 @@ import os
 # from keybert import KeyBERT
 import yake
 app = Flask(__name__)
-@app.route('/tag-api-1',methods=['GET','POST'])
+@app.route('/tag',methods=['GET','POST'])
 def endpoint2():
   req = request.get_json()
   list1 = []
