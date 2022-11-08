@@ -20,7 +20,7 @@ def tag():
   re.sub(clean, '', i)
   kw_extractor = yake.KeywordExtractor()
   language = "en"
-  max_ngram_size = 4
+  max_ngram_size = 3
   deduplication_threshold = 0.1
   numOfKeywords = 5
   custom_kw_extractor = yake.KeywordExtractor(lan=language, n=max_ngram_size, dedupLim=deduplication_threshold, top=numOfKeywords, features=None, stopwords=None) 
